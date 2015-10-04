@@ -10,11 +10,15 @@
 		DF3461F71BC040D60052FD5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3461F61BC040D60052FD5F /* main.m */; };
 		DF3461FA1BC040D60052FD5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3461F91BC040D60052FD5F /* AppDelegate.m */; };
 		DF3461FD1BC040D60052FD5F /* GoEuro_MobileTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF3461FB1BC040D60052FD5F /* GoEuro_MobileTest.xcdatamodeld */; };
-		DF3462001BC040D60052FD5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3461FF1BC040D60052FD5F /* ViewController.m */; };
+		DF3462001BC040D60052FD5F /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3461FF1BC040D60052FD5F /* HomeVC.m */; };
 		DF3462031BC040D60052FD5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3462011BC040D60052FD5F /* Main.storyboard */; };
 		DF3462051BC040D60052FD5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3462041BC040D60052FD5F /* Images.xcassets */; };
 		DF3462081BC040D60052FD5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF3462061BC040D60052FD5F /* LaunchScreen.xib */; };
 		DF3462141BC040D60052FD5F /* GoEuro_MobileTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3462131BC040D60052FD5F /* GoEuro_MobileTestTests.m */; };
+		DF3462251BC044FF0052FD5F /* SuggestionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3462241BC044FF0052FD5F /* SuggestionsManager.m */; };
+		DF3462271BC045F20052FD5F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3462261BC045F20052FD5F /* CoreLocation.framework */; };
+		DF34622A1BC0835A0052FD5F /* Suggestion.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3462291BC0835A0052FD5F /* Suggestion.m */; };
+		DF8714921BC1D3A600BA03F5 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF8714911BC1D3A600BA03F5 /* OpenSans-ExtraBoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +38,20 @@
 		DF3461F81BC040D60052FD5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF3461F91BC040D60052FD5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DF3461FC1BC040D60052FD5F /* GoEuro_MobileTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoEuro_MobileTest.xcdatamodel; sourceTree = "<group>"; };
-		DF3461FE1BC040D60052FD5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DF3461FF1BC040D60052FD5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF3461FE1BC040D60052FD5F /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		DF3461FF1BC040D60052FD5F /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 		DF3462021BC040D60052FD5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF3462041BC040D60052FD5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DF3462071BC040D60052FD5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DF34620D1BC040D60052FD5F /* GoEuro-MobileTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoEuro-MobileTestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3462121BC040D60052FD5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF3462131BC040D60052FD5F /* GoEuro_MobileTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoEuro_MobileTestTests.m; sourceTree = "<group>"; };
+		DF3462231BC044FF0052FD5F /* SuggestionsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionsManager.h; sourceTree = "<group>"; };
+		DF3462241BC044FF0052FD5F /* SuggestionsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionsManager.m; sourceTree = "<group>"; };
+		DF3462261BC045F20052FD5F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DF3462281BC0835A0052FD5F /* Suggestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Suggestion.h; sourceTree = "<group>"; };
+		DF3462291BC0835A0052FD5F /* Suggestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Suggestion.m; sourceTree = "<group>"; };
+		DF8714911BC1D3A600BA03F5 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3462271BC045F20052FD5F /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +76,7 @@
 		DF3461E81BC040D60052FD5F = {
 			isa = PBXGroup;
 			children = (
+				DF3462261BC045F20052FD5F /* CoreLocation.framework */,
 				DF3461F31BC040D60052FD5F /* GoEuro-MobileTest */,
 				DF3462101BC040D60052FD5F /* GoEuro-MobileTestTests */,
 				DF3461F21BC040D60052FD5F /* Products */,
@@ -85,8 +97,12 @@
 			children = (
 				DF3461F81BC040D60052FD5F /* AppDelegate.h */,
 				DF3461F91BC040D60052FD5F /* AppDelegate.m */,
-				DF3461FE1BC040D60052FD5F /* ViewController.h */,
-				DF3461FF1BC040D60052FD5F /* ViewController.m */,
+				DF3462231BC044FF0052FD5F /* SuggestionsManager.h */,
+				DF3462241BC044FF0052FD5F /* SuggestionsManager.m */,
+				DF3462281BC0835A0052FD5F /* Suggestion.h */,
+				DF3462291BC0835A0052FD5F /* Suggestion.m */,
+				DF3461FE1BC040D60052FD5F /* HomeVC.h */,
+				DF3461FF1BC040D60052FD5F /* HomeVC.m */,
 				DF3462011BC040D60052FD5F /* Main.storyboard */,
 				DF3462041BC040D60052FD5F /* Images.xcassets */,
 				DF3462061BC040D60052FD5F /* LaunchScreen.xib */,
@@ -99,6 +115,7 @@
 		DF3461F41BC040D60052FD5F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DF8714911BC1D3A600BA03F5 /* OpenSans-ExtraBoldItalic.ttf */,
 				DF3461F51BC040D60052FD5F /* Info.plist */,
 				DF3461F61BC040D60052FD5F /* main.m */,
 			);
@@ -205,6 +222,7 @@
 				DF3462031BC040D60052FD5F /* Main.storyboard in Resources */,
 				DF3462081BC040D60052FD5F /* LaunchScreen.xib in Resources */,
 				DF3462051BC040D60052FD5F /* Images.xcassets in Resources */,
+				DF8714921BC1D3A600BA03F5 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,9 +241,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF3461FD1BC040D60052FD5F /* GoEuro_MobileTest.xcdatamodeld in Sources */,
+				DF34622A1BC0835A0052FD5F /* Suggestion.m in Sources */,
 				DF3461FA1BC040D60052FD5F /* AppDelegate.m in Sources */,
-				DF3462001BC040D60052FD5F /* ViewController.m in Sources */,
+				DF3462001BC040D60052FD5F /* HomeVC.m in Sources */,
 				DF3461F71BC040D60052FD5F /* main.m in Sources */,
+				DF3462251BC044FF0052FD5F /* SuggestionsManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +440,7 @@
 				DF3462191BC040D60052FD5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF34621A1BC040D60052FD5F /* Build configuration list for PBXNativeTarget "GoEuro-MobileTestTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +449,7 @@
 				DF34621C1BC040D60052FD5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
